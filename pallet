@@ -1,0 +1,14 @@
+class Pallet {
+
+	constructor(length, width, height, weight) {
+    	this.length = length;
+        this.width = width;
+        this.height = height;
+        this.weight = weight;
+    }
+	
+	volume() {
+		return this.length * this.width * this.height
+	}
+
+}
